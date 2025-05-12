@@ -56,7 +56,6 @@ nav > a:hover {
   height: 90vh;
   color: var(--secondary-color);
   padding: 1rem;
-  
 }
 .hero-container {
   display: flex;
