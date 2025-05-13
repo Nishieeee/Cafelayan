@@ -7,13 +7,14 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   box-sizing: border-box;
   font-size: 18pt;
-
+  scroll-behavior: smooth;
 }
 
 .logo-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 #logo {
   height: 50px;
@@ -22,39 +23,21 @@
   margin-right: 10px;
 }
 
-nav > a {
-  text-decoration: none;
-  color: var(--primary-color);
-  padding: 10px 20px;
+ nav > a {
   font-size: large;
+  cursor: pointer;
 }
 nav > a:hover {
   border-bottom: 1px solid var(--primary-color);
 }
 
-.hero-page {
-  background-image: url("./assets/landscape.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+ .hero-page {
   height: 90vh;
-  color: var(--secondary-color);
-  padding: 1rem;
 }
 .hero-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
 .hero-container > h1 {
   font-size: 4rem;
-  text-align: center;
 }
-.hero-container > p {
-  font-size: 1.3rem;
-  text-align: center;
-}
+
