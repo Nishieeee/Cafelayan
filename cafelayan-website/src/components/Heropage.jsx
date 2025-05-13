@@ -1,21 +1,23 @@
-import Herobg from "../assets/landscape.jpg";
+import Herobg from "../assets/cafelayan-3.jpg";
 
 function Heropage() {
   return (
-    <section className="hero-page flex flex-col items-center justify-center bg-cover bg-center">
-      <div className="hero-container p-5 bg-green-950 flex flex-col items-center justify-center h-full w-full text-yellow-50 text-center">
-        <h1 className="text-7xl">Experience Freshness and Flavour</h1>
-        <p className="text-xl pb-20">
-          We take pride in cultivating a range of high-value crops
+    <section className="hero-page flex flex-col items-center justify-center bg-cover bg-center h-150">
+      <div className="hero-container p-5 bg-green-950 flex flex-col items-center justify-center h-full w-full text-yellow-50 text-center shadow-md shadow-black-200">
+        <h1 className="text-[5rem]">Experience Freshness and Flavour</h1>
+        <p className="text-[1.2rem] font-normal text-center pb-10 w-155">
+          Step inside our world of fresh, nutrient-rich produce and discover the
+          vibrant flavors and health benefits that define our commitment to
+          quality.
         </p>
       </div>
-      <div className="p-4 relative -top-25 z-2">
-          <img
-            src={Herobg}
-            alt="Cafelayan Landscape"
-            className="h-50 w-100 rounded-lg shadow-md shadow-black-500"
-          />
-        </div>
+      <div className="p-4 relative -top-30 z-2 h-50">
+        <img
+          src={Herobg}
+          alt="Cafelayan Landscape"
+          className="cafelayan-landscape h-70 w-110 rounded-lg"
+        />
+      </div>
     </section>
   );
 }
