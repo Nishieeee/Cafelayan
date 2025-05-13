@@ -5,7 +5,7 @@ import Contentimage3 from "../assets/landscape.jpg";
 function Aboutpage() {
   return (
     <>
-      <section className="py-10 px-20 grid grid-cols-7 h-screen">
+      <section className="py-10 px-20 grid grid-cols-7 h-130">
         <div className="col-span-4 ">
           <div className="border-b border-green-900 w-130">
             <h2 className="text-green-950 text-[2.5rem]">
@@ -58,9 +58,6 @@ function Aboutpage() {
             </div>
           </div>
         </div>
-      </section>
-      <section className="bg-lime-500">
-        <div></div>
       </section>
     </>
   );
