@@ -11,6 +11,9 @@ function Header() {
       </div>
       <nav className="flex items-center justify-center gap-5 text-green-900">
         <a href={Heropage} className="p-1 hover:border-b-1">
+          Blog
+        </a>
+        <a href={Heropage} className="p-1 hover:border-b-1">
           About us
         </a>
         <a href="#" className="p-1 hover:border-b-1 transition-all duration-400 ease-in">

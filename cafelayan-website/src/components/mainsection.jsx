@@ -2,6 +2,7 @@
 import Heropage from "./Heropage";
 import Aboutpage from "./aboutpage";
 import Testimony from "./testimonials";
+import Products from "./products";
 
 function Main() {
     return(
@@ -9,6 +10,7 @@ function Main() {
             <Heropage />
             <Aboutpage />
             <Testimony />
+            <Products />
         </main>
     );
 }
