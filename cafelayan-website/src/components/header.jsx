@@ -3,7 +3,7 @@ import Heropage from "./Heropage";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between z-99 px-25 py-1 bg-[#FAFAE0] sticky top-0 shadow-sm ">
+    <header className="flex items-center justify-between z-99 px-25 py-2 bg-yellow-50 sticky top-0 shadow-sm ">
       {/* TODO: Improve design */}
       <div className="logo-container flex items-center justify-between">
         <img src={Logo} alt="Cafelayan logo" id="logo" />
@@ -16,7 +16,7 @@ function Header() {
         <a href="#" className="p-1 hover:border-b-1">
           Partners
         </a>
-        <a href="#" className="p-1 hover:border-b-1">
+        <a href="#" className="py-1 px-4 border hover:bg-green-950 hover:text-green-50">
           Contact us
         </a>
       </nav>
