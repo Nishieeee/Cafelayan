@@ -16,14 +16,14 @@ function Testimony() {
         <h1 className="text-[2rem] text-green-950 font-bold">
           Choose from the Best
         </h1>
-        <div className="grid grid-cols-3 gap-10 py-5 px-3">
+        <div className="grid grid-cols-3 gap-5 py-5 px-3">
             {ItemContents.map((item, index) =>(
                 <div key={index}
-                    className="flex flex-col items-start justify-end h-80 rounded-lg bg-cover bg-center shadow-sm shadow-black"
+                    className="flex flex-col items-start justify-end h-100 rounded-lg bg-cover bg-center shadow-sm shadow-black hover:scale-103 transition-transform transition-discrete duration-250 cursor-pointer"
                     style={{backgroundImage:`url(${item.image})` }}>
                     <div key={index} className="flex flex-col items-start p-3 bg-gradient-to-b from-slate-50/5 to-slate-900/90">
-                        <h2 className="text-[1.5rem]">{item.textDescription}</h2>
-                        <p className="text-start text-[1rem]">
+                        <h2 className="text-[1.5rem] hover:text-yellow-200 transform-color duration-400 transform-discrete ease-in">{item.textDescription}</h2>
+                        <p className="text-start text-[1rem] hover:text-yellow-200 transform-color duration-400 transform-discrete ease-in">
                             {item.description}
                         </p>
                     </div>

@@ -5,7 +5,7 @@ import Contentimage3 from "../assets/landscape.jpg";
 function Aboutpage() {
   return (
     <>
-      <section className="py-10 px-20 grid grid-cols-7 h-130">
+      <section className="py-10 px-20 grid grid-cols-7 h-120">
         <div className="col-span-4 ">
           <div className="border-b border-green-900 w-130">
             <h2 className="text-green-950 text-[2.5rem]">
@@ -41,19 +41,19 @@ function Aboutpage() {
               <img
                 src={Contentimage}
                 alt="Cafelayan Image Sign"
-                className="rounded-xl"
+                className="rounded-xl hover:scale-103 transition-transform transitio-discrete duration-400 ease-in-out" 
               />
             </div>
             <div className="col-span-1 flex flex-col p-1">
               <img
                 src={Contentimage2}
                 alt="Cafelayan Owner Jeffrey Sereno"
-                className="rounded-xl p-2"
+                className="rounded-xl p-2 hover:scale-103 transition-transform transitio-discrete duration-400 ease-in-out"
               />
               <img
                 src={Contentimage3}
                 alt="Lettuce"
-                className="rounded-xl p-2"
+                className="rounded-xl p-2 hover:scale-103 transition-transform transitio-discrete duration-400 ease-in-out"
               />
             </div>
           </div>
