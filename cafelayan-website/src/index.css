@@ -1,19 +1,11 @@
-:root {
-  --primary-color: rgb(1, 53, 1);
-  --secondary-color: rgb(255, 255, 166);
-  --tertiary-color: rgb(128, 10, 10);
-}
+
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  box-sizing: border-box;
   font-size: 18pt;
   scroll-behavior: smooth;
 }
 
 .logo-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   cursor: pointer;
 }
 #logo {
@@ -31,7 +23,7 @@ nav > a:hover {
   border-bottom: 1px solid var(--primary-color);
 }
 
- .hero-page {
+.hero-page {
   height: 90vh;
 }
 .hero-container {
