@@ -16,10 +16,16 @@ function Header() {
         <a href={Heropage} className="p-1 hover:border-b-1">
           About us
         </a>
-        <a href="#" className="p-1 hover:border-b-1 transition-all duration-400 ease-in">
+        <a
+          href="#"
+          className="p-1 hover:border-b-1 transition-all duration-400 ease-in"
+        >
           Partners
         </a>
-        <a href="#" className="py-1 px-4 border hover:bg-green-950 hover:text-green-50 transition-colors duration-250 ease-in">
+        <a
+          href="#"
+          className="py-1 hover:border-b-1 transition-all duration-400 ease-in"
+        >
           Contact us
         </a>
       </nav>
