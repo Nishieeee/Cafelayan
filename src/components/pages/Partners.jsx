@@ -31,7 +31,7 @@ function Partners() {
 
         <div className="grid grid-cols-1 gap-3 md:gap-5 lg:gap-5 xl:gap-8 md:grid-cols-2 lg:grid-cols-4 p-8 lg:p-12">
           {partners.map((partner, index) => (
-            <div key={index} className="col-span-1 bg-cover bg-center h-60 flex flex-col justify-end " style={{backgroundImage: `url(${partner.image})`}}>
+            <div key={index} className="col-span-1 bg-cover bg-center h-60 flex flex-col justify-end shadow-sm shadow-black" style={{backgroundImage: `url(${partner.image})`}}>
               <div className="p-3 py-4 rounded-md bg-gradient-to-b from-slate-50/1 via-slate-900/60 to-gray-900">
                 <h1 className="text-green-50 md:text-lg lg:text-xl xl:text-2xl">{partner.name}</h1>
               </div>
