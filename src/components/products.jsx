@@ -11,7 +11,7 @@ function Products() {
   return (
     <>
       {/* Best Selling Product Section */}
-      <section className="px-4 py-8 sm:px-6 md:px-8 lg:px-12 xl:px-16 min-h-screen flex flex-col">
+      <section className="px-4 py-8 sm:px-6 md:px-8 lg:px-12 xl:px-16  flex flex-col">
         <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-green-950 border-b border-green-950 w-full sm:w-3/4 md:w-2/3 lg:w-3/5">
           Our Best Selling Product
         </h1>
