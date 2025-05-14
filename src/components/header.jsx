@@ -12,7 +12,7 @@ function Header() {
     /*TODO: add contacts and about page*/
   }
   return (
-    <header className="flex items-center justify-between px-4 py-3 bg-yellow-50 sticky top-0 shadow-sm z-50 md:px-6 lg:px-12">
+    <header className="flex items-center justify-between px-4 py-3 bg-yellow-50 sticky top-0 shadow-sm z-99999 md:px-6 lg:px-12">
       {/* Logo and Name */}
       <div className="flex items-center">
         <img
