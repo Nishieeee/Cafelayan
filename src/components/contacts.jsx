@@ -63,7 +63,7 @@ function Contacts() {
                   />
                 </a>
                 <a
-                  href="tiktok.com/@cafelayan"
+                  href="https://www.instagram.com/cafelayan.ph?igsh=YzljYTk1ODg3Zg=="
                   className="hover:opacity-80 transition-opacity"
                 >
                   <img src={IgIcon} alt="Instagram Icon" className="h-6 w-6" />

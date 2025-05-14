@@ -20,10 +20,10 @@ function Footer() {
           <div className="lg:col-span-1">
             <h3 className="font-semibold text-green-950 mb-3 text-lg">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-sm hover:text-green-700 transition-colors duration-300">Home</a></li>
-              <li><a href="#" className="text-sm hover:text-green-700 transition-colors duration-300">About</a></li>
-              <li><a href="#" className="text-sm hover:text-green-700 transition-colors duration-300">Contact</a></li>
-              <li><a href="#" className="text-sm hover:text-green-700 transition-colors duration-300">Partners</a></li>
+              <li><a href="/" className="text-sm hover:text-green-700 transition-colors duration-300">Home</a></li>
+              <li><a href="/about" className="text-sm hover:text-green-700 transition-colors duration-300">About</a></li>
+              <li><a href="/contact" className="text-sm hover:text-green-700 transition-colors duration-300">Contact</a></li>
+              <li><a href="/partners" className="text-sm hover:text-green-700 transition-colors duration-300">Partners</a></li>
             </ul>
           </div>
 
@@ -31,9 +31,9 @@ function Footer() {
           <div className="lg:col-span-1">
             <h3 className="font-semibold text-green-950 mb-3 text-lg">Products</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-sm hover:text-green-700 transition-colors duration-300">Lettuce chips</a></li>
-              <li><a href="#" className="text-sm hover:text-green-700 transition-colors duration-300">Lettuce</a></li>
-              <li><a href="#" className="text-sm hover:text-green-700 transition-colors duration-300">Kale</a></li>
+              <li><a className="text-sm hover:text-green-700 transition-colors duration-300">Lettuce chips</a></li>
+              <li><a className="text-sm hover:text-green-700 transition-colors duration-300">Lettuce</a></li>
+              <li><a className="text-sm hover:text-green-700 transition-colors duration-300">Kale</a></li>
             </ul>
           </div>
 
@@ -62,7 +62,7 @@ function Footer() {
               </li>
               <li>
                 <a 
-                  href="https://tiktok.com/@cafelayan" 
+                  href="https://www.instagram.com/cafelayan.ph?igsh=YzljYTk1ODg3Zg==" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity duration-300"

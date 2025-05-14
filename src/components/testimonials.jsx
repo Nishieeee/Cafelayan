@@ -62,31 +62,25 @@ function Testimony() {
 
         {/* Testimonials Grid - Stacked on mobile, grid on larger screens */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10 w-full max-w-6xl">
-          {[1, 2, 3].map((item, index) => (
             <div
-              key={index}
               className="flex flex-col gap-4 items-center justify-center text-center bg-white p-4 rounded-lg shadow-sm mb-4 sm:mb-0"
             >
               <p className="text-xs sm:text-sm md:text-base">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia quasi delectus perferendis odio aspernatur. Sequi
-                sapiente excepturi ipsum nam facere consectetur natus ipsam
-                pariatur
+                A must go place!!! The lettuce are very delicious Thank you Cafelayan, hope na makabisita ulit soon.
               </p>
 
               <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full overflow-hidden">
                 <img
-                  src={Logo}
+                  src="#"
                   alt="rater profile"
                   className="w-full h-full object-cover"
                 />
               </div>
 
               <h3 className="text-green-950 text-sm sm:text-base md:text-lg font-medium">
-                Jhon Clein Pagarogan
+                Heart Angel Cuaton Maalam
               </h3>
             </div>
-          ))}
         </div>
       </section>
     </>
