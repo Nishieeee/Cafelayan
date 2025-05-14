@@ -12,7 +12,7 @@ function Products() {
     <>
       {/* Best Selling Product Section */}
       <section className="px-4 py-8 sm:px-6 md:px-8 lg:px-12 xl:px-16  flex flex-col">
-        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-green-950 border-b border-green-950 w-full sm:w-3/4 md:w-2/3 lg:w-3/5">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-green-950  w-full sm:w-3/4 md:w-2/3 lg:w-3/5">
           Our Best Selling Product
         </h1>
         
@@ -28,23 +28,18 @@ function Products() {
           </div>
           
           {/* Product Description */}
-          <div className="md:col-span-2">
-            <h2 className="text-xl sm:text-2xl md:text-3xl text-green-950 border-b border-green-950 w-full sm:w-4/5 pb-1">
+          <div className="md:col-span-2 ">
+            <h2 className="text-xl font-bold sm:text-2xl md:text-3xl text-green-950 w-full sm:w-4/5 pb-1">
               Cafelayan's Lettuce Chips
             </h2>
             
             <div className="flex flex-col items-center mt-4">
               <p className="font-sans text-center text-sm sm:text-base md:text-lg lg:text-xl text-red-900 py-4">
-                From classic salted to exciting spicy options, These chips are
-                made with the best ingredients for a satisfying crunch. Whether
-                you're snacking during a movie or having party, or even in a
-                leisure picnic, Cafelayan's Lettuce Chips guarantees a
-                delightful experience. So get ready for Chip-tastic Journey that
-                will leave you craving for more!!
+                From Classic sea salt to bold spicy flavours, Cafelayan's Lettuce Chipsdeliver a satisfying crunchwith only premium ingrredients. These light, crispy snacks are perfect for movie nights, gatherings with friends, or anytime you crave something deliciously different. Made with real lettuce and no artificial preservatives, they're a better-for-you altrnative that doesn't compromise taste. Experience our Chip-tastic journey and discover why customers keep coming back for more.
               </p>
               
-              <button className="mt-4 border-2 border-green-950 py-2 px-5 md:py-3 md:px-7 text-sm md:text-base hover:bg-green-950 hover:text-green-50 transition-colors duration-300 ease-in rounded-sm">
-                View more
+              <button className="mt-4 border-2 text-green-950 text-[1rem] border-green-950 py-2 px-5 md:py-3 md:px-7 text-sm md:text-base hover:bg-green-950 hover:text-green-50 transition-colors duration-300 ease-in rounded-sm">
+                Shop Now
               </button>
             </div>
           </div>

@@ -8,19 +8,19 @@ const ItemContents = [
     textDescription: "Agriculture Leader",
     image: Image1,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, molestias quos aspernatur animi magnam esse dolorem hic temporibus fuga quasi odio ratione enim itaque?",
+      "Leading the way in sustainable and modern farming techniques, Cafelayan is committed to innovatin and excellence in agriculture. Our team combines experience and passion to bring high-quality produce to local and global markets.",
   },
   {
     textDescription: "Quality Standards",
     image: Image2,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, molestias quos aspernatur animi magnam esse dolorem hic temporibus fuga quasi odio ratione enim itaque?",
+      "Every product from Cafelayan meets strict quality benchmarks, ensuring freshness, safety, and sustainability. From planting to packaging, we uphold rigorous standards to deliver the best to our customers.",
   },
   {
     textDescription: "Organic Products",
     image: Image3,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, molestias quos aspernatur animi magnam esse dolorem hic temporibus fuga quasi odio ratione enim itaque?",
+      "We proudly grow our produce without harmful chemicals or synthetic additives. Cafelayan's organic vegetables are cultivated with care, providing natural nutrition while protecting the environment.",
   },
 ];
 
