@@ -4,7 +4,7 @@ import Contentimage3 from "../assets/landscape.jpg";
 
 function Aboutpage() {
   return (
-    <section className="py-6 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+    <section id="aboutpage" className="py-6 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
       {/* Mobile layout - stacked */}
       <div className="flex flex-col gap-6 md:grid md:grid-cols-7 md:gap-8">
         {/* Text content section */}
