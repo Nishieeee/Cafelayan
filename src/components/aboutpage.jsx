@@ -32,10 +32,13 @@ function Aboutpage() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4 text-green-950">
             <div className="border-l-2 border-green-900 pl-3">
-              <h5 className="text-lg sm:text-xl font-medium">Organic making</h5>
+              <h5 className="text-lg sm:text-xl font-medium">Agricultural Leader</h5>
             </div>
             <div className="border-l-2 border-green-900 pl-3">
-              <h5 className="text-lg sm:text-xl font-medium">Certified Products</h5>
+              <h5 className="text-lg sm:text-xl font-medium">Quality Standards</h5>
+            </div>
+            <div className="border-l-2 border-green-900 pl-3">
+              <h5 className="text-lg sm:text-xl font-medium">Sustainability Commitment</h5>
             </div>
           </div>
         </div>

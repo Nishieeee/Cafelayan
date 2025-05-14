@@ -1,7 +1,7 @@
 import Image1 from "../assets/cafelayan-owner-2.jpg";
 import Image2 from "../assets/lettuce-2.jpg";
-import Image3 from "../assets/lettuce-3.jpg";
-import Logo from "../assets/cafelayanlogo.jpg";
+import Image3 from "../assets/recycling.jpeg";
+
 
 const ItemContents = [
   {
@@ -17,10 +17,10 @@ const ItemContents = [
       "Every product from Cafelayan meets strict quality benchmarks, ensuring freshness, safety, and sustainability. From planting to packaging, we uphold rigorous standards to deliver the best to our customers.",
   },
   {
-    textDescription: "Organic Products",
+    textDescription: "Sustainability Commitment",
     image: Image3,
     description:
-      "We proudly grow our produce without harmful chemicals or synthetic additives. Cafelayan's organic vegetables are cultivated with care, providing natural nutrition while protecting the environment.",
+      "Cafelayan is dedicated to protecting our planet. Our farming methods minimize water use and reduce waste ensuring a greener future for generations",
   },
 ];
 
@@ -41,8 +41,8 @@ function Testimony() {
               className="flex flex-col items-start justify-end h-64 sm:h-72 md:h-80 lg:h-96 rounded-lg bg-cover bg-center shadow-md shadow-black hover:scale-105 transition-transform duration-300 cursor-pointer mb-4 sm:mb-0"
               style={{ backgroundImage: `url(${item.image})` }}
             >
-              <div className="flex flex-col items-start p-3 sm:p-4 md:p-5 w-full bg-gradient-to-b from-slate-50/5 to-slate-900/90 rounded-b-lg">
-                <h2 className="text-lg sm:text-xl md:text-2xl text-green-50 hover:text-yellow-200 transition-colors duration-300 ease-in">
+              <div className="flex flex-col items-start p-2 sm:p-3 md:p-5 w-full bg-gradient-to-b from-slate-50/5 to-slate-900/90 rounded-b-lg">
+                <h2 className="text-xl sm:text-2xl md:text-3xl text-green-50 hover:text-yellow-200 transition-colors duration-300 ease-in">
                   {item.textDescription}
                 </h2>
                 <p className="text-start text-xs sm:text-sm md:text-base text-green-50 hover:text-yellow-200 transition-colors duration-300 ease-in mt-1">
@@ -69,16 +69,35 @@ function Testimony() {
                 A must go place!!! The lettuce are very delicious Thank you Cafelayan, hope na makabisita ulit soon.
               </p>
 
-              <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full overflow-hidden">
+              {/* <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full overflow-hidden">
                 <img
                   src="#"
                   alt="rater profile"
                   className="w-full h-full object-cover"
                 />
-              </div>
+              </div> */}
 
               <h3 className="text-green-950 text-sm sm:text-base md:text-lg font-medium">
                 Heart Angel Cuaton Maalam
+              </h3>
+            </div>
+            <div
+              className="flex flex-col gap-4 items-center justify-center text-center bg-white p-4 rounded-lg shadow-sm mb-4 sm:mb-0"
+            >
+              <p className="text-xs sm:text-sm md:text-base">
+                gorgeous place!
+              </p>
+
+              {/* <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full overflow-hidden">
+                <img
+                  src="#"
+                  alt="rater profile"
+                  className="w-full h-full object-cover"
+                />
+              </div> */}
+
+              <h3 className="text-green-950 text-sm sm:text-base md:text-lg font-medium">
+                John Carlo Decial
               </h3>
             </div>
         </div>

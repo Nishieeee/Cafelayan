@@ -26,7 +26,7 @@ function Partners() {
           className="w-full h-50 bg-cover bg-center flex items-center justify-center"
           style={{ backgroundImage: `url(${About})` }}
         >
-          <h1 className="text-2xl text-green-950 font-bold hover:text-yellow-200 transition-colors duration-300 ease-in sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Partners</h1>
+          <h1 className="text-4xl font-bold text-yellow-50 transition-colors duration-300 ease-in sm:text-5xl md:text-6xl lg:text-8xl">Partners</h1>
         </div>
 
         <div className="grid grid-cols-1 gap-3 md:gap-5 lg:gap-5 xl:gap-8 md:grid-cols-2 lg:grid-cols-4 p-8 lg:p-12">

@@ -1,6 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Logo from "../assets/cafelayanlogo.jpg";
-import Heropage from "./Heropage";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +12,7 @@ function Header() {
     /*TODO: add contacts and about page*/
   }
   return (
-    <header className="flex items-center justify-between px-4 py-3 bg-yellow-50 sticky top-0 shadow-sm z-99999 md:px-6 lg:px-12">
+    <header className="flex items-center justify-between px-4 py-3 bg-yellow-50 sticky top-0 shadow-sm z-50 md:px-6 lg:px-12">
       {/* Logo and Name */}
       <div className="flex items-center">
         <img
@@ -59,64 +59,64 @@ function Header() {
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex items-center justify-center gap-5 text-green-900">
-        <a
-          href="/"
+        <Link
+          to="/"
           className="p-1 border-b border-transparent hover:border-green-900 transition-all duration-300"
         >
           Home
-        </a>
-        <a
-          href="/about"
+        </Link>
+        <Link
+          to="/about"
           className="p-1 border-b border-transparent hover:border-green-900 transition-all duration-300"
         >
           About us
-        </a>
-        <a
-          href="/partners"
+        </Link>
+        <Link
+          to="/partners"
           className="p-1 border-b border-transparent hover:border-green-900 transition-all duration-300"
         >
           Partners
-        </a>
-        <a
-          href="/contact"
+        </Link>
+        <Link
+          to="/contact"
           className="p-1 border-b border-transparent hover:border-green-900 transition-all duration-300"
         >
           Contact us
-        </a>
+        </Link>
       </nav>
 
       {/* Mobile Navigation Menu */}
       {isMenuOpen && (
         <div className="absolute top-full left-0 right-0 bg-yellow-50 shadow-md md:hidden">
           <nav className="flex flex-col py-2">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="px-4 py-3 text-green-900 hover:bg-yellow-100 transition-colors duration-300"
               onClick={toggleMenu}
             >
               Home
-            </a>
-            <a
-              href="/about"
+            </Link>
+            <Link
+              to="/about"
               className="px-4 py-3 text-green-900 hover:bg-yellow-100 transition-colors duration-300"
               onClick={toggleMenu}
             >
               About us
-            </a>
-            <a
-              href="/partners"
+            </Link>
+            <Link
+              to="/partners"
               className="px-4 py-3 text-green-900 hover:bg-yellow-100 transition-colors duration-300"
               onClick={toggleMenu}
             >
               Partners
-            </a>
-            <a
-              href="/contact"
+            </Link>
+            <Link
+              to="/contact"
               className="px-4 py-3 text-green-900 hover:bg-yellow-100 transition-colors duration-300"
               onClick={toggleMenu}
             >
               Contact us
-            </a>
+            </Link>
           </nav>
         </div>
       )}
