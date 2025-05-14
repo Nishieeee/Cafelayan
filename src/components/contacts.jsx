@@ -6,8 +6,8 @@ import LocationIcon from "../assets/icons/location-pin-alt-1-svgrepo-com.svg";
 import SocialsIcon from "../assets/icons/grid-masonry-svgrepo-com.svg";
 
 const ContactInfo = [
-  { type: "Email", contact: "cafelayan@gmail.com", icon: EmailIcon },
-  { type: "Phone", contact: "0993-857-5259", icon: PhoneIcon },
+  { type: "Email", contact: "cafelayanfoods@gmail.com", icon: EmailIcon },
+  { type: "Phone", contact: "0906-641-2285", icon: PhoneIcon },
   {
     type: "Address",
     contact: "Tulungatung, Zamboanga City",

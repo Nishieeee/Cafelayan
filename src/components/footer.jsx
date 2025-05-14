@@ -41,8 +41,8 @@ function Footer() {
           <div className="lg:col-span-1">
             <h3 className="font-semibold text-green-950 mb-3 text-lg">Contacts</h3>
             <ul className="space-y-2">
-              <li><a href="tel:+0993-857-5259" className="text-sm hover:text-green-700 transition-colors duration-300">0993-857-5259</a></li>
-              <li><a href="mailto:cafelayan@gmail.com" className="text-sm hover:text-green-700 transition-colors duration-300">cafelayan@gmail.com</a></li>
+              <li><a href="tel:+0906-641-2285" className="text-sm hover:text-green-700 transition-colors duration-300">0906-641-2285</a></li>
+              <li><a href="mailto:cafelayanfoods@gmail.com" className="text-sm hover:text-green-700 transition-colors duration-300">cafelayanfoods@gmail.com</a></li>
             </ul>
           </div>
 
