@@ -2,7 +2,7 @@ import FacebookIcon from "../assets/icons/facebook-svgrepo-com.svg";
 import IgIcon from "../assets/icons/instagram-svgrepo-com.svg";
 function Footer() {
   return (
-    <footer className="border-t border-gray-100">
+    <footer className="border-t border-gray-100 flex flex-col items-center">
       <div className="grid grid-cols-6 h-50 px-20 py-10">
         <div className="col-span-2">
           <h1>Cafelayan</h1>
@@ -39,8 +39,8 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <hr></hr>
-      <div className="flex items-centre justify-center">
+      <hr className="w-300"></hr>
+      <div className="flex items-center justify-center h-15">
         <p>&copy; {new Date().getFullYear()} Cafelayan | All rights Reserved</p>
       </div>
     </footer>
