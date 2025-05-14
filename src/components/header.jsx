@@ -66,7 +66,7 @@ function Header() {
           Home
         </a>
         <a
-          href="#aboutpage"
+          href="/about"
           className="p-1 border-b border-transparent hover:border-green-900 transition-all duration-300"
         >
           About us
@@ -78,7 +78,7 @@ function Header() {
           Partners
         </a>
         <a
-          href="#"
+          href="/contact"
           className="p-1 border-b border-transparent hover:border-green-900 transition-all duration-300"
         >
           Contact us
@@ -97,7 +97,7 @@ function Header() {
               Home
             </a>
             <a
-              href="/"
+              href="/about"
               className="px-4 py-3 text-green-900 hover:bg-yellow-100 transition-colors duration-300"
               onClick={toggleMenu}
             >
@@ -111,7 +111,7 @@ function Header() {
               Partners
             </a>
             <a
-              href="#"
+              href="/contact"
               className="px-4 py-3 text-green-900 hover:bg-yellow-100 transition-colors duration-300"
               onClick={toggleMenu}
             >
