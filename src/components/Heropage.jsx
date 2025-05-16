@@ -1,14 +1,21 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect} from 'react';
+
 import Herobg from "../assets/cafelayan-3.jpg";
 
 function Heropage() {
+  useEffect(() => {
+    AOS.init({ duration: 800, once: true});
+  }, []);
   return (
     <section className="relative flex flex-col items-center w-full bg-cover bg-center min-h-90 cursor-default">
       {/* Hero container with text */}
-      <div className="hero-container p-4 bg-green-950 flex flex-col items-center justify-center w-full text-yellow-50 text-center shadow-md md:p-15 lg:p-20">
-        <h1 className="text-2xl font-bold mb-3 hover:text-yellow-200 transition-colors duration-300 ease-in sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+      <div  className="hero-container p-4 bg-green-950 flex flex-col items-center justify-center w-full text-yellow-50 text-center shadow-md md:p-15 lg:p-20">
+        <h1 data-aos="fade-up" className="text-2xl font-bold mb-3 hover:text-yellow-200 transition-colors duration-300 ease-in sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
           Experience Freshness and Flavour
         </h1>
-        <p className="text-sm font-normal pb-6 max-w-xs hover:text-yellow-200 transition-colors duration-300 ease-in sm:text-base md:text-lg md:max-w-md lg:text-xl lg:max-w-lg xl:max-w-2xl">
+        <p data-aos="fade-up" className="text-sm font-normal pb-6 max-w-xs hover:text-yellow-200 transition-colors duration-300 ease-in sm:text-base md:text-lg md:max-w-md lg:text-xl lg:max-w-lg xl:max-w-2xl">
           Step inside our world of fresh, nutrient-rich produce and discover the
           vibrant flavors and health benefits that define our commitment to
           quality.
@@ -16,7 +23,7 @@ function Heropage() {
       </div>
 
       {/* Image container */}
-      <div className="p-4 relative -mt-10 z-10 w-full flex justify-center md:-mt-16 lg:-mt-20">
+      <div data-aos="fade-up" className="p-4 relative -mt-10 z-10 w-full flex justify-center md:-mt-16 lg:-mt-20">
         <img
           src={Herobg}
           alt="Cafelayan Landscape"

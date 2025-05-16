@@ -41,15 +41,17 @@ function Contacts() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {ContactInfo.map((contact, index) => (
               <div
+                data-aos="slide-left"
                 key={index}
                 className="p-4 flex flex-col items-start gap-2 bg-yellow-50/30 rounded-lg"
               >
                 <img
+                  data-aos="slide-left"
                   src={contact.icon}
                   alt={contact.type}
                   className="h-8 w-8 md:h-10 md:w-10"
                 />
-                <h2 className="text-lg sm:text-xl md:text-2xl text-green-950 font-bold">
+                <h2 data-aos="slide-left" className="text-lg sm:text-xl md:text-2xl text-green-950 font-bold">
                   {contact.type}
                 </h2>
                 <p className="text-sm sm:text-base">{contact.contact}</p>
@@ -59,15 +61,17 @@ function Contacts() {
             {/* Social Media Links */}
             <div className="p-4 flex flex-col items-start gap-2 bg-yellow-50/30 rounded-lg">
               <img
+                data-aos="slide-left"
                 src={SocialsIcon}
                 alt="Socials"
                 className="h-8 w-8 md:h-10 md:w-10"
               />
-              <h2 className="text-lg sm:text-xl md:text-2xl text-green-950 font-bold">
+              <h2 data-aos="slide-left" className="text-lg sm:text-xl md:text-2xl text-green-950 font-bold">
                 Socials
               </h2>
-              <div className="flex items-center gap-5">
+              <div data-aos="slide-left" className="flex items-center gap-5">
                 <a
+                  data-aos="slide-left"
                   href="https://www.facebook.com/freeylettuce"
                   className="hover:opacity-80 transition-opacity"
                 >
@@ -78,6 +82,7 @@ function Contacts() {
                   />
                 </a>
                 <a
+                  data-aos="slide-left"
                   href="https://www.instagram.com/cafelayan.ph?igsh=YzljYTk1ODg3Zg=="
                   className="hover:opacity-80 transition-opacity"
                 >
@@ -95,14 +100,16 @@ function Contacts() {
           </h2>
 
           <form onSubmit={sendEmail}>
-            <div className="flex flex-col">
+            <div data-aos="fade-up" className="flex flex-col">
               <label
+                data-aos="fade-up"
                 htmlFor="email"
                 className="text-sm md:text-base text-green-950 py-2"
               >
                 Email
               </label>
               <input
+                data-aos="fade-up"
                 type="email"
                 id="email"
                 name="email"
@@ -112,12 +119,14 @@ function Contacts() {
               />
 
               <label
+                data-aos="fade-up"
                 htmlFor="message"
                 className="text-sm md:text-base text-green-950 py-2"
               >
                 Message
               </label>
               <textarea
+                data-aos="fade-up"
                 name="message"
                 id="message"
                 rows="6"
@@ -127,8 +136,9 @@ function Contacts() {
               ></textarea>
 
               <button
+                data-aos="fade-up"
                 type="submit"
-                className="border-2 border-green-950 py-2 text-green-950 mt-2 hover:bg-green-950 transition-colors duration-300 ease-in hover:text-green-50 text-sm md:text-base font-medium rounded-md"
+                className="border-2 border-green-950 py-2 text-green-950 mt-2 hover:bg-green-950 transition-colors duration-300 ease-in-out hover:outline-4 outline-green-400 hover:scale-102 hover:text-green-50 text-sm md:text-base font-medium rounded-md"
               >
                 Send
               </button>

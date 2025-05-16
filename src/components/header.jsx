@@ -79,9 +79,9 @@ function Header() {
         </Link>
         <Link
           to="/contact"
-          className="p-1 border-b border-transparent hover:border-green-900 transition-all duration-300"
+          className="px-3 py-2 border-2 rounded-md border-green-950 hover:bg-green-950 hover:outline-4 outline-green-400 hover:text-green-50 hover:scale-105 transition-all duration-300"
         >
-          Contact us
+          Message us
         </Link>
       </nav>
 
@@ -112,10 +112,10 @@ function Header() {
             </Link>
             <Link
               to="/contact"
-              className="px-4 py-3 text-green-900 hover:bg-yellow-100 transition-colors duration-300"
+              className="px-4 py-3 text-green-900 border-2 border-green-950 hover:bg-green-950 hover:text-green-50 transition-colors duration-300"
               onClick={toggleMenu}
             >
-              Contact us
+              Message us
             </Link>
           </nav>
         </div>
