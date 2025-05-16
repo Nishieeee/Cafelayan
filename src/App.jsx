@@ -1,4 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect} from 'react';
 
 import Header from "./components/header";
 import Footer from "./components/footer";
@@ -10,6 +13,18 @@ import Contact from "./components/pages/contactpage";
 import Shop from "./components/pages/shop";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true, // Animation occurs only once
+    });
+
+    // Refresh AOS on route change
+    const handleRouteChange = () => AOS.refresh();
+
+    window.addEventListener("load", handleRouteChange);
+    return () => window.removeEventListener("load", handleRouteChange);
+  }, []);
   return (
     <Router>
       <Header />

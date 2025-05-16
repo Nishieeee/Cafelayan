@@ -1,13 +1,9 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect} from 'react';
+
 
 import Herobg from "../assets/cafelayan-3.jpg";
 
 function Heropage() {
-  useEffect(() => {
-    AOS.init({ duration: 800, once: true});
-  }, []);
+
   return (
     <section className="relative flex flex-col items-center w-full bg-cover bg-center min-h-90 cursor-default">
       {/* Hero container with text */}

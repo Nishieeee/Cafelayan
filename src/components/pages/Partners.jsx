@@ -1,4 +1,4 @@
-import About from "../../assets/landscape.jpg";
+import About from "../../assets/CoverPhoto.jpg";
 import Temp from "../../assets/cafelayanlogo.jpg";
 import Kwf from "../../assets/kwf.jpg";
 import Clc from "../../assets/CLC.jpg";
