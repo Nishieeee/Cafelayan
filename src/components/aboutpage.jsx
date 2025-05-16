@@ -10,13 +10,13 @@ function Aboutpage() {
         {/* Text content section */}
         <div className="md:col-span-4">
           <div className="border-b border-green-900 w-full md:w-5/6 lg:w-full">
-            <h2 className="text-green-950 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
+            <h2 className="text-green-950 text-3xl sm:text-4xl md:text-5xl font-bold">
               Cafelayan Hydroponic Farm
             </h2>
           </div>
           
           <div className="mt-4">
-            <h3 className="text-xl sm:text-2xl text-green-950 font-semibold mb-2">Our Mission</h3>
+            <h3 className="text-2xl sm:text-4xl text-green-950 font-semibold mb-2">Our Mission</h3>
             <p className="text-sm sm:text-base md:text-lg mb-3">
               Our hydroponics method ensure each leaf is packed with nutrition,
               free from harmful chemicals and bursting with flavor. We're driven
@@ -31,13 +31,13 @@ function Aboutpage() {
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4 text-green-950">
-            <div className="border-l-2 border-green-900 pl-3">
+            <div className="border-l-2 p-2 border-green-900 pl-3 bg-green-900/20">
               <h5 className="text-lg sm:text-xl font-medium">Agricultural Leader</h5>
             </div>
-            <div className="border-l-2 border-green-900 pl-3">
+            <div className="border-l-2 p-2 border-green-900 pl-3 bg-green-900/20">
               <h5 className="text-lg sm:text-xl font-medium">Quality Standards</h5>
             </div>
-            <div className="border-l-2 border-green-900 pl-3">
+            <div className="border-l-2 p-2 border-green-900 pl-3 bg-green-900/20">
               <h5 className="text-lg sm:text-xl font-medium">Sustainability Commitment</h5>
             </div>
           </div>

@@ -5,7 +5,7 @@ import Image3 from "../assets/recycling.jpeg";
 
 const ItemContents = [
   {
-    textDescription: "Agriculture Leader",
+    textDescription: "Agricultural Leader",
     image: Image1,
     description:
       "Leading the way in sustainable and modern farming techniques, Cafelayan is committed to innovatin and excellence in agriculture. Our team combines experience and passion to bring high-quality produce to local and global markets.",
@@ -29,7 +29,7 @@ function Testimony() {
     <>
       {/* Why we are the best Section */}
       <section className="px-4 py-8 sm:px-6 md:px-10 lg:px-16 text-center">
-        <h1 className="text-xl sm:text-2xl md:text-3xl text-green-950 font-bold mb-6">
+        <h1 className="text-3xl sm:text-3xl md:text-4xl text-green-950 font-bold mb-6">
           Why choose us?
         </h1>
 
@@ -41,7 +41,7 @@ function Testimony() {
               className="flex flex-col items-start justify-end h-64 sm:h-72 md:h-80 lg:h-96 rounded-lg bg-cover bg-center shadow-md shadow-black hover:scale-105 transition-transform duration-300 cursor-pointer mb-4 sm:mb-0"
               style={{ backgroundImage: `url(${item.image})` }}
             >
-              <div className="flex flex-col items-start p-2 sm:p-3 md:p-5 w-full bg-gradient-to-b from-slate-50/5 to-slate-900/90 rounded-b-lg">
+              <div className="flex flex-col items-start p-2 sm:p-3 md:p-4 w-full bg-gradient-to-b from-slate-50/5 to-slate-900/90 rounded-b-lg">
                 <h2 className="text-xl sm:text-2xl md:text-3xl text-green-50 hover:text-yellow-200 transition-colors duration-300 ease-in">
                   {item.textDescription}
                 </h2>
@@ -56,7 +56,7 @@ function Testimony() {
 
       {/* Testimonials Section */}
       <section className="bg-yellow-100 px-4 py-12 sm:px-6 md:px-10 lg:px-16 flex flex-col items-center">
-        <h1 className="text-xl sm:text-2xl md:text-3xl text-green-950 font-medium mb-6">
+        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl text-green-950 mb-6">
           Testimonials
         </h1>
 

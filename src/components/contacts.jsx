@@ -5,6 +5,21 @@ import FacebookIcon from "../assets/icons/facebook-svgrepo-com.svg";
 import LocationIcon from "../assets/icons/location-pin-alt-1-svgrepo-com.svg";
 import SocialsIcon from "../assets/icons/grid-masonry-svgrepo-com.svg";
 
+import React from 'react';
+import Emailjs from 'emailjs-com';
+
+
+const sendEmail = (e) => {
+    e.preventDefault();
+
+    Emailjs.sendForm(
+      'service_5o826xd',
+      'template_qnh9ngi',
+      e.target,
+      'un71oy8yFznvy_-X3'
+    ).then(() => alert('Message Sent!')).catch(err => alert("Email error: ", err));
+};
+
 const ContactInfo = [
   { type: "Email", contact: "cafelayanfoods@gmail.com", icon: EmailIcon },
   { type: "Phone", contact: "0906-641-2285", icon: PhoneIcon },
@@ -79,7 +94,7 @@ function Contacts() {
             Get in touch
           </h2>
 
-          <form action="#" method="get">
+          <form onSubmit={sendEmail}>
             <div className="flex flex-col">
               <label
                 htmlFor="email"
@@ -90,6 +105,7 @@ function Contacts() {
               <input
                 type="email"
                 id="email"
+                name="email"
                 placeholder="example@example.com"
                 className="border border-gray-300 px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 mb-3"
                 required

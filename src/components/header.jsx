@@ -21,7 +21,7 @@ function Header() {
           id="logo"
           className="h-10 w-auto md:h-12"
         />
-        <h1 className="text-green-900 text-lg ml-2 md:text-xl lg:text-2xl">
+        <h1 className="text-green-900 font-bold text-2xl ml-2 md:text-3xl lg:text-3xl">
           Cafelayan
         </h1>
       </div>

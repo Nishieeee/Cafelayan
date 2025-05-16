@@ -23,6 +23,7 @@ function Partners() {
       {/*TODO: Update hero image and get samples for partner img*/}
       <section className="partners-page ">
         <div
+        
           className="w-full h-50 bg-cover bg-center flex items-center justify-center"
           style={{ backgroundImage: `url(${About})` }}
         >
