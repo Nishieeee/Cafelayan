@@ -112,7 +112,7 @@ function Header() {
             </Link>
             <Link
               to="/contact"
-              className="px-4 py-3 text-green-900 border-2 border-green-950 hover:bg-green-950 hover:text-green-50 transition-colors duration-300"
+              className="px-4 py-3 text-green-900 hover:bg-green-950 hover:text-green-50 transition-colors duration-300"
               onClick={toggleMenu}
             >
               Message us

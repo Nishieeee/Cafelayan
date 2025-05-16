@@ -7,6 +7,7 @@ import Main from "./components/mainsection";
 import Partners from "./components/pages/Partners";
 import About from "./components/pages/about";
 import Contact from "./components/pages/contactpage";
+import Shop from "./components/pages/shop";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/partners" element={<Partners />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/shop" element={<Shop />} />
       </Routes>
       <Footer />
     </Router>

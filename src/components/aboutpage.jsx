@@ -47,9 +47,8 @@ function Aboutpage() {
         <div className="md:col-span-3 mt-6 md:mt-0">
           {/* Mobile: Single column layout for images */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div className="sm:col-span-1">
+            <div data-aos="fade-up" className="sm:col-span-1">
               <img
-                data-aos="fade-up"
                 src={Contentimage}
                 alt="Cafelayan Image Sign"
                 className="rounded-lg w-full h-auto object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
@@ -57,17 +56,15 @@ function Aboutpage() {
             </div>
             
             <div className="sm:col-span-1 grid grid-cols-1 gap-3 mt-3 sm:mt-0">
-              <div>
-                <img
-                  data-aos="fade-up"
+              <div data-aos="fade-up">
+                <img               
                   src={Contentimage2}
                   alt="Cafelayan Owner Jeffrey Sereno"
                   className="rounded-lg w-full h-auto object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
                 />
               </div>
-              <div>
-                <img
-                  data-aos="fade-up"
+              <div data-aos="fade-up">
+                <img                  
                   src={Contentimage3}
                   alt="Lettuce"
                   className="rounded-lg w-full h-auto object-cover hover:scale-105 transition-transform duration-300 ease-in-out"

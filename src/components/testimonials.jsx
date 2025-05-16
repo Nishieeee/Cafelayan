@@ -38,15 +38,15 @@ function Testimony() {
           {ItemContents.map((item, index) => (
             <div
               key={index}
-              data-aos="fade-up"
-              className="flex flex-col items-start justify-end h-64 sm:h-72 md:h-80 lg:h-96 rounded-lg bg-cover bg-center shadow-md shadow-black hover:scale-105 transition-transform duration-300 cursor-pointer mb-4 sm:mb-0"
+              
+              className="flex flex-col items-start justify-end h-64 sm:h-72 md:h-80 lg:h-96 rounded-lg bg-cover bg-center shadow-md shadow-black hover:scale-105 transition-scale duration-300 ease-in-out cursor-pointer mb-4 sm:mb-0"
               style={{ backgroundImage: `url(${item.image})` }}
             >
-              <div data-aos="fade-up" className="flex flex-col items-start p-2 sm:p-3 md:p-4 w-full bg-gradient-to-b from-slate-50/5 to-slate-900/90 rounded-b-lg">
-                <h2 className="text-xl sm:text-2xl md:text-3xl text-green-50 hover:text-yellow-200 transition-colors duration-300 ease-in">
+              <div className="flex flex-col items-start p-2 sm:p-3 md:p-4 w-full bg-gradient-to-b from-slate-50/5 to-slate-900/90 rounded-b-lg">
+                <h2 data-aos="fade-up" className="text-xl sm:text-2xl md:text-3xl text-green-50 hover:text-yellow-200 transition-colors duration-300 ease-in">
                   {item.textDescription}
                 </h2>
-                <p className="text-start text-xs sm:text-sm md:text-base text-green-50 hover:text-yellow-200 transition-colors duration-300 ease-in mt-1">
+                <p data-aos="fade-up" className="text-start text-xs sm:text-sm md:text-base text-green-50 hover:text-yellow-200 transition-colors duration-300 ease-in mt-1">
                   {item.description}
                 </p>
               </div>
